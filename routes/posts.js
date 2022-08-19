@@ -1,10 +1,6 @@
 const express = require('express');
-const { populate } = require('../models/Post');
 const router = express.Router();
 const Post = require('../models/Post');
-
-
-
 
 
 // This code gets all posts from the database
